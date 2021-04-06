@@ -93,7 +93,7 @@ namespace LessonRegistrisp17
             MessageBox.Show($"Пользователь, {lName} {fName}, добавлен");
         }
 
-        private void btnUserList_Click(object sender, RoutedEventArgs e)
+        private void btnUserList_Click(object sender, RoutedEventArgs e) // переход на другую страницу
         {
             UserDataWindow userDataWindow = new UserDataWindow();
             userDataWindow.ShowDialog();
